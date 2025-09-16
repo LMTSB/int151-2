@@ -29,7 +29,6 @@ let sum = 5
 sum = 2
 function getScore(x) {
   let y = 10 //local variable
-  //global function
   let mid = 40
   let final = 30
   function doSomething() {
@@ -38,7 +37,23 @@ function getScore(x) {
   return doSomething()
   //return y + sum + x + mid + final
 }
-const score = getScore(1)
-// console.log(x, mid, final) //cannot access
+//const score = getScore(1)
+//console.log(x, mid, final) //cannot access
  
- 
+function idGenerator() { //practice 1
+  let x = 0
+  function increase() {
+    return x += 1
+  }
+  return increase
+}
+const idGen = idGenerator()
+//p(idGen())
+//p(idGen())
+//p(idGen())
+
+const outerFunction = (x) => {const innerFunction = (y) => {return x+y}; return innerFunction };
+const addFive = outerFunction(5);
+p(addFive(3));
+const addTen = outerFunction(10);
+p(addTen(2));
