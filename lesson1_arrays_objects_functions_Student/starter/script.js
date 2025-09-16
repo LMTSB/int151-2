@@ -24,7 +24,7 @@ function deleteQuote(id) {
   // TODO: Remove the quote object from the array using the given id
   if (!id) {return "Invalid Value"};
   function find(id) {
-
+    
   }
 }
 //const deleteQuote = (quote) => {quote.filter(quote.id === quote)}
