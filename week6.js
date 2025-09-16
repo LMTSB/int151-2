@@ -1,6 +1,6 @@
 
 //import function
-import { p } from "./modulePractice.js"
+import { p } from "./functions.js"
 
 //class06 Functional Programming
 const greet = (name,formatter) => formatter(name) //higher order function
