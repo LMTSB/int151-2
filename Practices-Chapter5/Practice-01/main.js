@@ -3,11 +3,11 @@
 //const button_b = document.querySelector("button[data-color= 'blue']");
 
 //const buttons = document.getElementsByTagName("button")
-//Array.from(buttons).forEach(b => {b.addEventListener("click", 
+//Array.from(buttons).forEach(b => {b.addEventListener("click",
 //    () => {})})
 //button_r.addEventListener('click', () => {box.style.background = "red"; box.textContent = "RED";});
 //button_g.addEventListener('click', () => {box.style.background = "green"; box.textContent = "GREEN";});
-//button_b.addEventListener('click', () => {box.style.background = "blue"; box.textContent = "BLUE";});    
+//button_b.addEventListener('click', () => {box.style.background = "blue"; box.textContent = "BLUE";});
 
 const box = document.querySelector("#box");
 const buttons = document.getElementsByTagName("button");
