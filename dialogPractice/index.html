@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <dialog id="messageDialog" open>
-        <p> Would you like to confirm your declaration?</p>
+    <div style="padding: 10px; border: 1px solid #ccc; width: fit-content;"><div> click button below to open the dialog</div>
+        <button id="openDialogBtn">open dialog</button>
+    </div>
+    <dialog id="messageDialog" >
+        <p>click button below to close the dialog</p>
         <button id="confirmBtn">confirm</button>
         <button id="cancelBtn">cancel</button>
+    </dialog>
+
+    <dialog id="confirmDialog" >
+        <p>are you sure?</p>
+        <button id="dialog_okBtn">confirm</button>
+        <button id="dialog_cancelBtn">cancel</button>
     </dialog>
     <script type="module" src="dialogTest.js"></script>
 </body>
